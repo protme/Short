@@ -8,7 +8,7 @@ const config = {
   overwrite_kv: false, // 允许覆盖已存在的key // Allow user to overwrite an existed key.
   snapchat_mode: false, // 短链只能访问一次(访问后就删除了) // The link will be distroyed after access.
   visit_count: false, // 使用记数(会大大增加写入的使用量, 多人共用不推荐打开) // Count visit times.
-  load_kv: false, // 从KV加载全部数据(自用推荐打开, 多人共用会看到别人的数据) // Load all from Cloudflare KV
+  load_kv: true, // 从KV加载全部数据(自用推荐打开, 多人共用会看到别人的数据) // Load all from Cloudflare KV
   system_type: "shorturl", // 系统的功能定义 // shorturl, imghost, other types {pastebin, journal}
 }
 
